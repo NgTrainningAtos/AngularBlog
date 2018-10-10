@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{ blog.thumbnailUrl }}" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{ blog.title }}</h5>
+        <p class="card-text">{{ blog.url }}</p>
+        <!-- <blog-card-text class="card-text" [text]="blog.url " [limit]="300"> </blog-card-text>
+        <blog-card-text class="card-text" [text]="{{ blog.url | limite:300:char }}"> </blog-card-text> -->
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>

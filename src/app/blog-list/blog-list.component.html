@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="page-header row">
+    <h3>Recents</h3>
+    <app-home-filter></app-home-filter>
+  </div>
+  <div class="card-deck">
+    <app-blog-card *ngFor="let blog of blogs" [blog]="blog">
+    </app-blog-card>
+  </div>
+
+</div>
